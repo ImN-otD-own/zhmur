@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(192, 236, 250);
-}
-.base {
-    width: 100%;
     background-image: url(blueback.png);
     background-attachment: fixed;
+}
+
+.base {
+    width: 100%;
 }
 .header {
     width: 100%;
@@ -20,13 +21,12 @@ body {
     width: 180px;
 }
 .logo {
-    margin-top: 18px; 
+    margin-top: 4px; 
 }
 .header_top {
     display: flex;
-    padding-top: auto;
     width: 80%;
-    height: 100px;
+    height: 70px;
     border-bottom: 1px solid #b0cdf1;
     margin: auto;
 }
@@ -41,26 +41,50 @@ body {
     font-size: 17px;
     font-family: 'Comfortaa';
     text-decoration: none;
-    margin-top: 42px;
+    margin-top: 26px;
+}
+.top_links_link:hover {
+    color: #F55449;
+    transition: 0.2s;
 }
 .conteiner {
     margin: auto;
     width: 80%;
-    height: 640px;
+    height: 870px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}    
+.names {
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .name {
-    font-family: 'Open Sans';
-    font-size: 60px;
-    font-weight: 700;
+    font-family: 'Ubuntu';
+    font-size: 50px;
+    font-weight: 500;
     color: #b0cdf1;
 }
 .lastname {
-    font-family: 'Open Sans';
-    margin-top: 40px;
-    font-size: 40px;
+    margin-top: 15px;
+    font-family: 'Comfortaa';
+    font-size: 30px;
     font-weight: 400;
     color: #b0cdf175;
+}
+
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.caland_name {
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    font-weight: 700;
+    color: #b0cdf1;
 }
