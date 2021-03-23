@@ -1,30 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans&display=swap');
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body {
     background-color: rgb(192, 236, 250);
 }
 .base {
     width: 100%;
+    background-image: url(blueback.png);
+    background-attachment: fixed;
 }
 .header {
     width: 100%;
     height: 940px;
-    background-image: url(blueback.png);
+}
+.logo_img {
+    width: 180px;
 }
 .logo {
-    width: 180px;
-    margin-top: auto;
+    margin-top: 18px; 
 }
 .header_top {
+    display: flex;
+    padding-top: auto;
     width: 80%;
+    height: 100px;
     border-bottom: 1px solid #b0cdf1;
     margin: auto;
 }
 .top_links {
-    
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 59%;
 }
 .top_links_link {
     color: rgb(204, 224, 250);
+    font-size: 17px;
+    font-family: 'Comfortaa';
+    text-decoration: none;
+    margin-top: 42px;
+}
+.conteiner {
+    margin: auto;
+    width: 80%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name {
+    font-family: 'Open Sans';
+    font-size: 60px;
+    font-weight: 700;
+    color: #b0cdf1;
+}
+.lastname {
+    font-family: 'Open Sans';
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #b0cdf175;
 }
